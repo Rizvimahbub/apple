@@ -1,0 +1,471 @@
+.items-container {
+    width: 98.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+
+.product {
+    width: 100%;
+    height: 577px;
+    position: relative;
+}
+
+
+
+
+.ultra {
+    background: url('./Images/apple\ watch\ 1/apple_watch_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.series8 {
+    background: url('./Images/apple\ watch\ 2/large1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ipad-pro {
+    background: url('./Images/iPad\ Pro/promo_ipadpro_large_2x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tv-4k {
+    background: url('./Images/TV/promo_tv4k_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.airpods {
+    background: url('./Images/Airpods/promo_airpods_pro_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card {
+    background: url('./Images/Card/card_large.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.about {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 59px;
+    width: 250px;
+}
+
+
+.about img {
+    width: 139px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.about h5 {
+    font-size: 20px;
+    margin-top: 9px;
+    text-align: center;
+    color: #555556;
+    font-weight: 500;
+}
+
+.items-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.65em;
+}
+
+
+.items-link a {
+    font-size: 17px;
+    color: #06c;
+}
+
+
+.items-link a:hover {
+    text-decoration: underline;
+}
+
+
+.series8 h5{
+    color: #f5f5f7;
+}
+
+.ipad-pro h4 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #f5f5f7;
+    text-align: center;
+}
+
+
+.ipad-pro h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: 400;
+    color: #f5f5f7;
+}
+
+
+.ipad-pro span {
+    margin-left: 5px;
+}
+
+
+.ipad-pro span img {
+    width: 37px;
+    height: 37px;
+}
+
+
+.ipad-pro p {
+    margin-top: 0px;
+    font-size: 17px;
+    color: #6e6e73;
+    text-align: center;
+}
+
+
+.about-ipad-pro {
+    width: 300px;
+}
+
+
+.tv img {
+    width: 110px;
+}
+
+
+.tv h5 {
+    margin-top: 5px;
+}
+
+
+.tv p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: #6e6e73;
+    text-align: center;
+}
+
+
+.about-airpods h4 {
+    color: #f5f5f7;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.about-airpods h5 {
+    color: #f5f5f7;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.about-card {
+    width: 300px;
+}
+
+
+.about-card img {
+    width: 120px;
+}
+
+
+.about-card h5 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+@media screen and (min-width:735px) and (max-width:1068px) {
+    .product {
+        height: 487px;
+    }
+
+    .ultra {
+        background: url('./Images/apple\ watch\ 1/promo_apple_watch_ultra__gnsqulvdc4a6_medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .series8 {
+        background: url('./Images/apple\ watch\ 2/promo_apple_watch_series_8_medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .ipad-pro {
+        background: url('./Images/iPad\ Pro/promo_ipadpro_medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .tv-4k {
+        background: url('./Images/TV/promo_tv4k_medium_2x.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .airpods {
+        background: url('./Images/Airpods/promo_airpods_pro_medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .card {
+        background: url('./Images/Card/card_medium.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .about {
+        margin-top: 38px;
+        width: 250px;
+    }
+
+
+    .about img {
+        width: 110px;
+    }
+
+
+    .about h5{
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+
+    .ipad-pro h4 {
+        font-size: 32px;
+    }
+
+
+    .ipad-pro h3{
+        font-size: 19px;
+    }
+
+
+    .ipad-pro p{
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+
+    .tv img {
+        width: 85px;
+    }
+    
+    
+    .tv h5 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    
+    .tv p {
+        margin-top: 11px;
+        font-size: 19px;
+    }
+
+    .about-airpods h4 {
+        font-size: 32px;
+    }
+    
+    
+    .about-airpods h5 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+
+    .about-card {
+        width: 270px;
+    }
+    
+    
+    .about-card img {
+        width: 95px;
+    }
+    
+    
+    .about-card h5 {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media screen and (max-width:734px) {
+    .items-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    
+    .product {
+        height: 507px;
+    }
+
+    .ultra {
+        background: url('./Images/apple\ watch\ 1/promo_apple_watch_ultra__gnsqulvdc4a6_small.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .series8 {
+        background: url('./Images/apple\ watch\ 2/promo_apple_watch_series_8_small.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .ipad-pro {
+        background: url('./Images/iPad\ Pro/promo_ipadpro_small_2x.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .tv-4k {
+        background: url('./Images/TV/promo_tv4k_small_2x.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .airpods {
+        background: url('./Images/Airpods/promo_airpods_pro_small.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .card {
+        background: url('./Images/Card/card_small.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .about {
+        margin-top: 38px;
+        width: 250px;
+    }
+
+
+    .about img {
+        width: 110px;
+    }
+
+
+    .about h5{
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+
+    .ipad-pro h4 {
+        font-size: 32px;
+    }
+
+
+    .ipad-pro h3{
+        font-size: 19px;
+    }
+
+
+    .ipad-pro p{
+        font-size: 19px;
+        margin-top: 0;
+    }
+
+
+    .tv img {
+        width: 85px;
+    }
+    
+    
+    .tv h5 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    
+    .tv p {
+        margin-top: 11px;
+        font-size: 19px;
+    }
+
+    .about-airpods h4 {
+        font-size: 32px;
+    }
+    
+    
+    .about-airpods h5 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+
+    .about-card {
+        width: 270px;
+    }
+    
+    
+    .about-card img {
+        width: 95px;
+    }
+    
+    
+    .about-card h5 {
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+}

@@ -1,0 +1,159 @@
+.section {
+  width: 50%;
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+
+.icon {
+  font-size: 3rem;
+  color: hsl(21, 62%, 45%);
+}
+
+.section-center {
+  margin: 0 auto;
+  width: 70%;
+  height: 453px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  background: white;
+  overflow: visible;
+  
+}
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 1s linear;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+  margin: 0 10px;
+}
+
+article.lastSlide {
+  transform: translateX(-100%);
+  opacity: 0.5;
+}
+
+article.nextSlide {
+  transform: translateX(100%);
+  opacity: 0.5;
+}
+
+.person-img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+article h4 {
+  text-transform: uppercase;
+  color: hsl(21, 62%, 45%);
+  margin-bottom: 0.25rem;
+}
+
+.title {
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  color: hsl(209, 34%, 30%);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.text {
+  max-width: 35em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 2;
+  color: hsl(210, 22%, 49%);
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 200px;
+  transform: translateY(-50%);
+  background: hsl(210, 22%, 49%);
+  color: #fff;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: grid;
+  place-items: center;
+  border-color: transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.prev:hover,
+.next:hover {
+  background: hsl(21, 62%, 45%);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+@media (min-width: 800px) {
+  .text {
+    max-width: 45em;
+  }
+
+  .prev,
+  .next {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+.container-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  bottom: 13px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #C2C2C2;
+}
+
+.dot.active {
+  background: #707070;
+}
+
+
+.is-hidden {
+  display: none;
+}

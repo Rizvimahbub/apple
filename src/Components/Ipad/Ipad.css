@@ -1,0 +1,171 @@
+.ipad {
+    height: 705px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+ .about-ipad {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+
+
+.about-ipad h2 {
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+    color: #1d1d1f;
+}
+
+
+.about-ipad h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #1d1d1f
+}
+
+
+.about-ipad p {
+    font-size: 21px;
+    font-weight: 400;
+    color: #6e6e73;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ipad-link {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+
+.about-ipad a {
+    font-size: 21px;
+    color: #06c;
+    text-decoration: none;
+}
+
+
+.about-ipad a:hover{
+    text-decoration: underline;
+}
+
+
+.chevron-right {
+    font-size: 16px;
+
+}
+
+
+
+@media screen and (min-width:0) and (max-width:734px) {
+    .ipad {
+        background: url('./Images/small.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+}
+
+
+@media screen and (min-width:735px) {
+    .ipad {
+        background: url('./Images/large.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+}
+
+
+@media screen and (min-width:735px) and (max-width:1068px) {
+    .ipad {
+        height: 660px;
+        
+    }
+
+
+    .about-ipad {
+        width: 300px;
+    }
+
+
+
+    .about-ipad h2 {
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+
+    .about-ipad h3 {
+        font-size: 24px;
+        margin-top: 0;
+    }
+
+
+    .about-ipad p {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+
+
+    .about-ipad a {
+        font-size: 19px;
+    }
+
+}
+
+
+@media screen and (max-width:734px) {
+    .ipad {
+        height: 515px;
+    }
+
+
+    .about-ipad {
+        width: 240px;
+        top: 5%;
+        left: 32%;
+        transform: translateY(0);
+    }
+
+
+
+    .about-ipad h2 {
+        font-size: 32px;
+    }
+
+
+    .about-ipad h3 {
+        font-size: 19px;
+    }
+
+
+    .about-ipad p {
+        font-size: 17px;
+    }
+
+
+    .about-ipad a {
+        font-size: 17px;
+        
+    }
+
+
+    .ipad-link{
+        justify-content: space-between;
+    }
+
+}
